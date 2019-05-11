@@ -7,6 +7,12 @@
     background-color: #333333;
     
 }
+
+.utilities_nav img{
+    margin-top: 11px;
+    margin-left: 20px,
+}
+
 .navbar a
 {    
     color: white ;
@@ -15,6 +21,8 @@
 #user-nav
 {
     margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .dropdown-menu a{
@@ -23,9 +31,9 @@
 
 /* Carrusel */
 
-.carousel h3,
+.carousel h4,
 .carousel p{
-    color:#6d6d6d;
+    color:black;
     font-weight: normal;
 } 
 
@@ -144,3 +152,7 @@
 }
 
 /* /Carrusel */
+
+#login button{
+    margin-left: 20px,
+}
